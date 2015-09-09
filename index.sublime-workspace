@@ -1,0 +1,555 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"scr",
+				"scripts"
+			],
+			[
+				"star",
+				"star"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"fo",
+				"font-variant"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"len",
+				"len"
+			],
+			[
+				"con",
+				"converted"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"mark",
+				"markerIcon"
+			],
+			[
+				"zoom",
+				"zoomControl"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"marig",
+				"margin-right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"border",
+				"border-bottom"
+			]
+		]
+	},
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "list",
+		"selected_items":
+		[
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packeres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packageresou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"themr",
+				"Themr: Previous theme"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mhensel/Downloads/Interview/database.html",
+		"/Users/mhensel/Downloads/Interview/team.html",
+		"/Users/mhensel/Downloads/Interview/team_style.css",
+		"/Users/mhensel/Downloads/Interview/my_interviews_style.css",
+		"/Users/mhensel/Downloads/Interview/search.html",
+		"/Users/mhensel/Downloads/Interview/form.html",
+		"/Users/mhensel/Downloads/Interview/search_style.css",
+		"/Users/mhensel/Downloads/Interview/database_style.css",
+		"/Users/mhensel/Downloads/Interview/favorites_style.css",
+		"/Users/mhensel/Downloads/Interview/profile.html",
+		"/Users/mhensel/Downloads/Interview/profile_style.css",
+		"/Users/mhensel/Desktop/Interview/my_interviews_style.css",
+		"/Users/mhensel/Desktop/Interview/my_interviews.html",
+		"/Users/mhensel/Desktop/Interview/questions.html",
+		"/Users/mhensel/Desktop/Interview/home_style.css",
+		"/Users/mhensel/Desktop/Interview/home.html",
+		"/Users/mhensel/Desktop/Interview/profile_style.css",
+		"/Users/mhensel/Desktop/Interview/profile.html",
+		"/Users/mhensel/Desktop/Interview/favorites_style.css",
+		"/Users/mhensel/Desktop/Interview/database.html",
+		"/Users/mhensel/Desktop/Interview/database_style.css",
+		"/Users/mhensel/Desktop/Interview/search.html",
+		"/Users/mhensel/Desktop/Interview/search_style.css",
+		"/Users/mhensel/Desktop/Interview/favorites.html",
+		"/Users/mhensel/Desktop/Interview/team.html",
+		"/Users/mhensel/Desktop/Interview/team_style.css",
+		"/Users/mhensel/Desktop/Interview/scripts/change_star.js",
+		"/Users/mhensel/Desktop/Interview/scripts/front.js",
+		"/Users/mhensel/Desktop/Interview/scripts/load.js",
+		"/Users/mhensel/Desktop/Interview/questions_style.css",
+		"/Users/mhensel/Desktop/Interview/form.html",
+		"/Users/mhensel/Desktop/Interview/form_style.css",
+		"/Users/mhensel/Desktop/Interview/login_style.css",
+		"/Users/mhensel/Downloads/Interview 3/home_style.css",
+		"/Users/mhensel/Downloads/Interview 3/home.html",
+		"/Users/mhensel/Downloads/Interview 2/form.html",
+		"/Users/mhensel/Downloads/Interview 2/favorites.html",
+		"/Users/mhensel/Downloads/Interview 2/team.html",
+		"/Users/mhensel/Downloads/Interview 2/form_style.css",
+		"/Users/mhensel/Downloads/Interview 2/team_style.css",
+		"/Users/mhensel/Downloads/Interview 2/demo.html",
+		"/Users/mhensel/Downloads/Interview 2/database.html",
+		"/Users/mhensel/Downloads/Interview 2/database_style.css",
+		"/Users/mhensel/Downloads/Interview 2/favorites_style.css",
+		"/Users/mhensel/Downloads/Interview 2/login.html",
+		"/Users/mhensel/Downloads/Interview 2/home_style.css",
+		"/Users/mhensel/Downloads/Interview 2/login_style.css",
+		"/Users/mhensel/Downloads/Interview 2/home.html",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/mhensel/Downloads/Interview 2/formstyle.css",
+		"/Users/mhensel/Downloads/Interview/formstyle.css",
+		"/Users/mhensel/Desktop/bubsort3.c",
+		"/Users/mhensel/Desktop/bubsort2.c",
+		"/Users/mhensel/Desktop/bubsort1.c",
+		"/Users/mhensel/Desktop/version2.c",
+		"/Users/mhensel/Desktop/Lab11.c",
+		"/Users/mhensel/INLS 690/A4/CSS/music.css",
+		"/Users/mhensel/Desktop/lab10.c",
+		"/Users/mhensel/Desktop/assignment3/MinMaxHeap.java",
+		"/Users/mhensel/Desktop/lab9ex1.c",
+		"/Users/mhensel/Desktop/lab9ex2.c",
+		"/Users/mhensel/Desktop/lab8ex2.c",
+		"/Users/mhensel/Desktop/lab8ex1.c",
+		"/Users/mhensel/INLS 690/A4/CSS/video.css",
+		"/Users/mhensel/INLS 690/A4/CSS/fashion.css",
+		"/Users/mhensel/INLS 690/A4/CSS/map.css",
+		"/Users/mhensel/INLS 690/A4/HTML/map.html",
+		"/Users/mhensel/INLS 690/A4/HTML/video.html",
+		"/Users/mhensel/INLS 690/A4/HTML/music.html",
+		"/Users/mhensel/INLS 690/A4/HTML/fashion.html",
+		"/Users/mhensel/INLS 690/A4/HTML/index.html",
+		"/Users/mhensel/INLS 690/A4/CSS/index.css",
+		"/Users/mhensel/INLS 690/A4/JavaScript/map.js",
+		"/Users/mhensel/INLS 690/A4/HTML/fashion.css",
+		"/Users/mhensel/INLS 690/A4/CSS/videos.css",
+		"/Users/mhensel/INLS 690/A4/HTML/videos.html",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/mhensel/INLS 690/A4/HTML/albums.html",
+		"/Users/mhensel/Desktop/videos.css",
+		"/Users/mhensel/Desktop/videos.html",
+		"/Users/mhensel/INLS 690/A4/CSS/albums.css",
+		"/Users/mhensel/INLS 690/A4/Images/map_marker.png",
+		"/Users/mhensel/INLS 690/map.js",
+		"/Users/mhensel/INLS 690/mapsstyletest.html",
+		"/Users/mhensel/.Trash/JavaScript 17-02-45-891/map.js",
+		"/Users/mhensel/.Trash/JavaScript/map.js",
+		"/Users/mhensel/INLS 690/a4/css/map.css",
+		"/Users/mhensel/INLS 690/a4/css/albums.css",
+		"/Users/mhensel/INLS 690/a4/index.html",
+		"/Users/mhensel/INLS 690/a4/html/index.html",
+		"/Users/mhensel/INLS 690/a3/map.html",
+		"/Users/mhensel/INLS 690/a3/map.css",
+		"/Users/mhensel/INLS 690/a3/kanye.jpg",
+		"/Users/mhensel/web_design/a1/index.html",
+		"/Users/mhensel/web_design/a1/style.css",
+		"/Users/mhensel/web_design/a1/kanye.jpg",
+		"/Users/mhensel/web_design/bistro/index.html",
+		"/Users/mhensel/Downloads/SourceCodePro_FontsOnly-1.017/ReadMe.html",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Theme - Spacegray/Spacegray Light.sublime-theme",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/mhensel/Downloads/patriot.tmTheme",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Theme - Spacegray/Spacegray Eighties.sublime-theme",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Dayle Rees Color Schemes/sublimeui/patriot/Widget - patriot.stTheme",
+		"/Users/mhensel/Library/Application Support/Sublime Text 3/Packages/Dayle Rees Color Schemes/sublimeui/patriot/Widget - patriot.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"value",
+			"h1",
+			"first",
+			"ptrArray",
+			";\n",
+			"++;",
+			"decOrdered",
+			"incOrdered",
+			"arr",
+			"WEST",
+			"shift+r",
+			"londonMarker",
+			"honolulu",
+			"120",
+			"175",
+			"100",
+			"160",
+			"75",
+			"h1",
+			"<figcaption>",
+			"</figcaption>",
+			"</figure>",
+			"<figure>",
+			"images",
+			"153",
+			"85",
+			"170",
+			"75",
+			"175",
+			"75",
+			"153",
+			"102",
+			"90",
+			"102",
+			"20px",
+			"padding",
+			"caret",
+			"find"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

@@ -25,6 +25,7 @@ footer {
 
 footer p {
 	float: left;
+	text-align: right;
 }
 
 #self {

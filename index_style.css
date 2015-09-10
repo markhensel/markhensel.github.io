@@ -19,14 +19,14 @@ body {
 	text-align: center;
 }
 
-footer p{
-	float: left;
+footer {
+	float: right;
 }
 
 #self {
-	float: right;
 	width: 100px;
 	height: 100px;
+	margin-top: 10px;
 }
 
 a {

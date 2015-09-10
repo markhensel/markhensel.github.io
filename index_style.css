@@ -1,29 +1,73 @@
 html {
-	background-color: gainsboro;
+	/*background-color: gainsboro;*/
+	background-color: midnightblue;
+	height: 100%;
+	min-height: 100%;
 }
 
-body { 
-	margin-top: -10px;
-	margin-left: 25%;
-	margin-right: 25%;
-	width: 50%;
+body {
+	margin-top: 0 !important;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	height: 100%;
+	min-height: 100%;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	background-color: whitesmoke;
+	border: 20px cornflowerblue solid;
 }
 
+/* MAIN SECTION */
 #main {
-	border-bottom: 1px lightgray solid;
+	overflow: auto;
+}
+
+#main_content {
+	width: 70%;
+	margin: 0 auto 0 5%;
+	float: left;
 }
 
 #name {
 	text-align: center;
+	padding-top: 15px;
+	margin-top: 0px;
+	font-size: 50px;
+	font-variant: small-caps;
 }
 
+#main aside {
+	float: right;
+	margin-right: 20px;
+	line-height: 2em;
+	padding: 20px;
+	background-color: gainsboro;
+}
+
+#main aside a {
+	width: 50px;
+	padding-bottom: 3px;
+	border-bottom: 1px gray solid;
+}
+
+#main aside #last_link {
+	border-bottom: none;
+}
+
+
+/* FOOTER */
 footer {
 	background-color: whitesmoke;
+	border-top: 1px gainsboro solid;
+	overflow: auto;
+	width: 60%;
+	position: absolute;
+	bottom: 0;
+	right: 20%;
+	margin-right: -20px;
 }
 
-footer figure {
+#footer_content {
 	float: right;
 }
 
@@ -31,6 +75,7 @@ footer p {
 	float: left;
 	text-align: right;
 	margin-top: 25px;
+	line-height: 1.5em;
 }
 
 #self {
@@ -40,6 +85,7 @@ footer p {
 	margin: 10px;
 }
 
+/* LINKS */
 a {
 	text-decoration: none;
 }

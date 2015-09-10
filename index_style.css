@@ -23,7 +23,12 @@ footer {
 	float: right;
 }
 
+footer p {
+	float: left;
+}
+
 #self {
+	float: left;
 	width: 100px;
 	height: 100px;
 	margin-top: 10px;

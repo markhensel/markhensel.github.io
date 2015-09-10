@@ -26,6 +26,7 @@ footer {
 footer p {
 	float: left;
 	text-align: right;
+	margin-top: 20px;
 }
 
 #self {
@@ -33,6 +34,7 @@ footer p {
 	width: 100px;
 	height: 100px;
 	margin-top: 10px;
+	margin-left: 10px;
 }
 
 a {

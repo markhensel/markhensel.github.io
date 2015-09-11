@@ -1,6 +1,6 @@
 html {
 	/*background-color: gainsboro;*/
-	background-color: midnightblue;
+	background-color: gray;
 	height: 100%;
 	min-height: 100%;
 }
@@ -14,7 +14,7 @@ body {
 	min-height: 100%;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	background-color: whitesmoke;
-	border: 20px cornflowerblue solid;
+	/*border: 20px cornflowerblue solid;*/
 }
 
 /* MAIN SECTION */
@@ -23,9 +23,10 @@ body {
 }
 
 #main_content {
-	width: 70%;
-	margin: 0 auto 0 5%;
+	/*width: 70%;*/
+	margin: 5% auto 0 5%;
 	float: left;
+	font-weight: bold;
 }
 
 #name {
@@ -35,29 +36,42 @@ body {
 	font-size: 50px;
 	font-variant: small-caps;
 	font-weight: bold;
-	color: darkred;
+	/*color: gray;*/
 }
 
 #main aside {
-/*	float: right;*/
-	margin-right: 20px;
+	float: left;
+	text-align: center;
+	/*clear: both;*/
+	width: 100%;
 	line-height: 2em;
-	padding: 20px;
+	padding: 10px;
+	/*padding-left: 5%;*/
 	background-color: gainsboro;
 }
 
 #main aside a {
+	font-weight: bold;
 	width: 50px;
-	padding-bottom: 3px;
-	border-bottom: 1px gray solid;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*border-bottom: 1px gray solid;*/
+	border-right: 1px gray solid;
+	color: midnightblue;
+}
+
+#main aside a:hover {
+	color: darkred;
 }
 
 #main aside #last_link {
-	border-bottom: none;
+	border: none;
 }
 
 
 /* FOOTER */
+/*
 footer {
 	background-color: whitesmoke;
 	border-top: 1px gainsboro solid;
@@ -79,13 +93,17 @@ footer p {
 	margin-top: 25px;
 	line-height: 1.5em;
 }
-
+*/
 #self {
-	float: left;
-	width: 100px;
-	height: 100px;
+	float: right;
+	/*display: block;*/
+	/*z-index: 999;*/
+	width: 250px;
+	height: 250px;
 	margin: 10px;
+	margin-top: -40px;
 }
+
 
 /* LINKS */
 a {

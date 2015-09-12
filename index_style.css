@@ -1,6 +1,7 @@
 html {
-	/*background-color: gainsboro;*/
-	background-color: gray;
+	background: -webkit-linear-gradient(#DDDDDD, darkgray); /* For Safari 5.1 to 6.0 */
+  	background: -moz-linear-gradient(#DDDDDD, darkgray); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#DDDDDD, darkgray); /* Standard syntax */
 	height: 100%;
 	min-height: 100%;
 }
@@ -13,7 +14,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	background-color: whitesmoke;
+	background: linear-gradient(#FAFAFA, whitesmoke); /* Standard syntax */
 	/*border: 20px cornflowerblue solid;*/
 }
 

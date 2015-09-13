@@ -19,8 +19,6 @@ body {
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
 	/*-webkit-box-shadow: 0px 20px 25px 10px gray; /* Firefox support */*/
 	/*-moz-box-shadow: 0px 20px 25px 10px gray; /* Safari support */*/
-
-	/*border: 20px cornflowerblue solid;*/
 }
 
 /* --- BODY TEXT --- */
@@ -29,7 +27,8 @@ body {
 }
 #main_content {
 	/*width: 70%;*/
-	margin: 5% auto 0 5%;
+	margin: 5%;
+	margin-left: 8%;
 	float: left;
 	font-weight: bold;
 }
@@ -40,18 +39,38 @@ body {
 	/*text-align: center;*/
 	display: inline;
 	padding-top: 30px;
-	/*padding-bottom: 15px;*/
+	padding-bottom: 4px;
 	margin: 10px 0 0 0;
 	font-size: 50px;
 	font-variant: small-caps;
 	font-weight: bold;
 	/*color: gray;*/
+	/*text-decoration: underline;*/
+	border-bottom: 1px solid grey;
 }
 #first_name {
-	color: darkred;
+	color: maroon;
 }
 #last_name {
 	color: midnightblue;
+}
+#underscore {
+	display: inline;
+	padding-top: 30px;
+	padding-bottom: 4px;
+	margin: 10px 0 0 0;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: bold;
+	/*color: gray;*/
+	border-bottom: 1px solid grey;
+}
+
+/* --- ROLES --- */
+#roles {
+	font-style: italic;
+	font-size: 18px;
+	line-height: 1.5em;
 }
 
 
@@ -59,12 +78,13 @@ body {
 #links {
 	float: left;
 	text-align: center;
-	/*clear: both;*/
 	width: 100%;
 	line-height: 2em;
+	font-size: 1.15em;
 	padding: 10px;
-	/*padding-left: 5%;*/
 	background-color: gainsboro;
+	border-top: 1px solid darkgray;
+	border-bottom: 1px solid darkgray;
 }
 #links a {
 	font-weight: bold;
@@ -87,12 +107,11 @@ body {
 /* --- PORTRAIT --- */
 #self {
 	float: right;
-	/*display: block;*/
-	/*z-index: 999;*/
 	width: 250px;
 	height: 250px;
-	margin: 5px 30px 20px auto;
+	margin: 5px 5% 20px auto;
 	border-radius: 70%;
+	box-shadow: 0px 2px 10px 3px gainsboro;
 }
 
 

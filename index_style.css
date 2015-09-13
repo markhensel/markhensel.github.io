@@ -40,6 +40,10 @@ body {
 		float: left;
 		display: block;
 	}
+	#links {
+		font-size: 1em;
+		color: gray;
+	}
 }
 
 /* --- BODY TEXT --- */

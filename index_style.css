@@ -1,11 +1,12 @@
 html {
-	background: -webkit-linear-gradient(#DDDDDD, darkgray); /* For Safari 5.1 to 6.0 */
-  	background: -moz-linear-gradient(#DDDDDD, darkgray); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(#DDDDDD, darkgray); /* Standard syntax */
+	background: linear-gradient(#DDDDDD, darkgray); /* Standard syntax */
+	background: -webkit-linear-gradient(#DDDDDD, darkgray); /* Safari support */
+  	background: -moz-linear-gradient(#DDDDDD, darkgray); /* Firefox support */
 	height: 100%;
 	min-height: 100%;
 }
 
+/* --- BODY --- */
 body {
 	margin-top: 0 !important;
 	margin-left: 20%;
@@ -13,16 +14,19 @@ body {
 	width: 60%;
 	height: 100%;
 	min-height: 100%;
+	background: linear-gradient(#FAFAFA, whitesmoke);
+	box-shadow: 0px -10px 45px 10px gray;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	background: linear-gradient(#FAFAFA, whitesmoke); /* Standard syntax */
+	/*-webkit-box-shadow: 0px 20px 25px 10px gray; /* Firefox support */*/
+	/*-moz-box-shadow: 0px 20px 25px 10px gray; /* Safari support */*/
+
 	/*border: 20px cornflowerblue solid;*/
 }
 
-/* MAIN SECTION */
+/* --- BODY TEXT --- */
 #main {
 	overflow: auto;
 }
-
 #main_content {
 	/*width: 70%;*/
 	margin: 5% auto 0 5%;
@@ -30,17 +34,29 @@ body {
 	font-weight: bold;
 }
 
-#name {
-	text-align: center;
-	padding-top: 15px;
-	margin-top: 0px;
+
+/* --- "MARK HENSEL" --- */
+#first_name, #last_name {
+	/*text-align: center;*/
+	display: inline;
+	padding-top: 30px;
+	/*padding-bottom: 15px;*/
+	margin: 10px 0 0 0;
 	font-size: 50px;
 	font-variant: small-caps;
 	font-weight: bold;
 	/*color: gray;*/
 }
+#first_name {
+	color: darkred;
+}
+#last_name {
+	color: midnightblue;
+}
 
-#main aside {
+
+/* --- LINKS --- */
+#links {
 	float: left;
 	text-align: center;
 	/*clear: both;*/
@@ -50,28 +66,37 @@ body {
 	/*padding-left: 5%;*/
 	background-color: gainsboro;
 }
-
-#main aside a {
+#links a {
 	font-weight: bold;
 	width: 50px;
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	/*border-bottom: 1px gray solid;*/
+	text-decoration: none;
 	border-right: 1px gray solid;
 	color: midnightblue;
 }
-
-#main aside a:hover {
+#links a:hover {
 	color: darkred;
 }
-
-#main aside #last_link {
+#links #last_link {
 	border: none;
 }
 
 
-/* FOOTER */
+/* --- PORTRAIT --- */
+#self {
+	float: right;
+	/*display: block;*/
+	/*z-index: 999;*/
+	width: 250px;
+	height: 250px;
+	margin: 5px 30px 20px auto;
+	border-radius: 70%;
+}
+
+
+/* --- FOOTER --- */
 /*
 footer {
 	background-color: whitesmoke;
@@ -95,18 +120,3 @@ footer p {
 	line-height: 1.5em;
 }
 */
-#self {
-	float: right;
-	/*display: block;*/
-	/*z-index: 999;*/
-	width: 250px;
-	height: 250px;
-	margin: 10px;
-	margin-top: -40px;
-}
-
-
-/* LINKS */
-a {
-	text-decoration: none;
-}

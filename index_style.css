@@ -29,8 +29,11 @@ body {
 		margin: 0;
 		font-size: 2em;
 	}
-	#first_name, #last_name, #roles {
-		font-size: 2em;
+	#first_name, #last_name{
+		font-size: 100px;
+	}
+	#roles {
+		font-size: 40px;
 	}
 	#self {
 		width: 500px;
@@ -52,9 +55,7 @@ body {
 /* --- "MARK HENSEL" --- */
 #first_name, #last_name {
 	display: inline;
-	/*padding-top: 50px;*/
 	padding-bottom: 4px;
-	/*margin: 10% 0;*/
 	font-size: 50px;
 	font-variant: small-caps;
 	font-weight: bold;

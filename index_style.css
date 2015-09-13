@@ -37,7 +37,7 @@ body {
 	#self {
 		width: 500px;
 		height: 500px;
-		float: left;
+		margin: 0 auto;
 		display: block;
 	}
 	#links a{
@@ -63,12 +63,12 @@ body {
 }
 #main_content ul li{
     padding-top: 5px;
-    color: #4D4D4D;
+    color: #404040;
     /*vertical-align: middle;*/
 }
 .material-icons {
 	color: rgba(0, 0, 0, 0.5);
-	font-size: 36px;
+	font-size: 32px;
 	padding-right: 5px;
 	vertical-align: middle;
 }

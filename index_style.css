@@ -35,9 +35,14 @@ body {
 	#roles {
 		font-size: 40px;
 	}
+	links {
+		font-size: 2em;
+	}
 	#self {
 		width: 500px;
 		height: 500px;
+		float: left;
+		display: block;
 	}
 }
 

@@ -29,12 +29,12 @@ body {
 		margin: 0;
 		font-size: 2em;
 	}
-	h1, h2 {
+	#first_name, #last_name, #roles {
 		font-size: 2em;
 	}
 	#self {
-		width: 40%;
-		height: 40%;
+		width: 500px;
+		height: 500px;
 	}
 }
 

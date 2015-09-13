@@ -51,9 +51,23 @@ body {
 	overflow: auto;
 }
 #main_content {
-	margin: 8% 5% 5% 8%;
+	margin: 5% 5% 5% 8%;
 	float: left;
 	font-weight: bold;
+}
+#main_content ul {
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 2.1em;
+}
+#main_content ul li{
+    padding-top: 5px;
+}
+.material-icons {
+	color: rgba(0, 0, 0, 0.5);
+	padding-right: 5px;
+	vertical-align: middle;
 }
 
 
@@ -61,7 +75,8 @@ body {
 #first_name, #last_name {
 	display: inline;
 	padding-bottom: 4px;
-	font-size: 50px;
+	margin-top: -10px;
+	font-size: 60px;
 	font-variant: small-caps;
 	font-weight: bold;
 	border-bottom: 1px solid grey;

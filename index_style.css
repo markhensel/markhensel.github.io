@@ -63,9 +63,12 @@ body {
 }
 #main_content ul li{
     padding-top: 5px;
+    color: #4D4D4D;
+    /*vertical-align: middle;*/
 }
 .material-icons {
 	color: rgba(0, 0, 0, 0.5);
+	font-size: 36px;
 	padding-right: 5px;
 	vertical-align: middle;
 }
@@ -136,29 +139,9 @@ body {
 #links #last_link {
 	border: none;
 }
-
-
-/* --- FOOTER --- */
-/*
-footer {
-	background-color: whitesmoke;
-	border-top: 1px gainsboro solid;
-	overflow: auto;
-	width: 60%;
-	position: absolute;
-	bottom: 0;
-	right: 20%;
-	margin-right: -20px;
+.icons img {
+	max-width: 16px;
+	max-height: 16px;
+	padding-right: 3px;
+	/*vertical-align: middle;*/
 }
-
-#footer_content {
-	float: right;
-}
-
-footer p {
-	float: left;
-	text-align: right;
-	margin-top: 25px;
-	line-height: 1.5em;
-}
-*/

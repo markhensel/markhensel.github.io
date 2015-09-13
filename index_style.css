@@ -20,6 +20,12 @@ body {
 	/*-webkit-box-shadow: 0px 20px 25px 10px gray; /* Firefox support */*/
 	/*-moz-box-shadow: 0px 20px 25px 10px gray; /* Safari support */*/
 }
+/* --- MOBILE VIEW --- */
+@media only screen and (max-device-width: 500px) { 
+	body {
+		width: 100%;
+	}
+}
 
 /* --- BODY TEXT --- */
 #main {

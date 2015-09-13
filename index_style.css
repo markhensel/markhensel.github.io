@@ -27,6 +27,11 @@ body {
 		width: 100%;
 		box-shadow: none;
 		margin: 0;
+		font-size: 2em;
+	}
+	#self {
+		width: 500px;
+		height: 500px;
 	}
 }
 

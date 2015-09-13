@@ -27,16 +27,12 @@ body {
 		width: 100%;
 		box-shadow: none;
 		margin: 0;
-		font-size: 2em;
 	}
 	#first_name, #last_name{
 		font-size: 100px;
 	}
 	#roles {
 		font-size: 40px;
-	}
-	links {
-		font-size: 2em;
 	}
 	#self {
 		width: 500px;

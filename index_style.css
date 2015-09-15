@@ -1,7 +1,11 @@
 html {
-	background: linear-gradient(#DDDDDD, darkgray); /* Standard syntax */
-	background: -webkit-linear-gradient(#DDDDDD, darkgray); /* Safari support */
-  	background: -moz-linear-gradient(#DDDDDD, darkgray); /* Firefox support */
+	/*background: linear-gradient(#DDDDDD, darkgray); /* Standard syntax */*/
+	/*background: -webkit-linear-gradient(#DDDDDD, darkgray); /* Safari support */*/
+  	/*background: -moz-linear-gradient(#DDDDDD, darkgray); /* Firefox support */*/
+  	background-color: white;
+  	background-image: url("./images/graygrid.jpg");
+  	/*background-size: 250px;*/
+  	background-repeat: repeat;
 	height: 100%;
 	min-height: 100%;
 }
@@ -17,8 +21,6 @@ body {
 	background: linear-gradient(#FAFAFA, whitesmoke);
 	box-shadow: 0px -10px 45px 10px gray;
 	font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	/*-webkit-box-shadow: 0px 20px 25px 10px gray; /* Firefox support */*/
-	/*-moz-box-shadow: 0px 20px 25px 10px gray; /* Safari support */*/
 }
 /* --- MOBILE VIEW --- */
 @media only screen and (max-device-width: 500px) { 

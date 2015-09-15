@@ -1,9 +1,10 @@
 html {
-/*	background-color: white;
-  	background-image: url("./imgs/graygrid.jpg");
-  	background-repeat: repeat;*/
-  	background:  
-  		-webkit-linear-gradient(
+	background:  
+  		linear-gradient(
+  			rgba(230,230,230, 0.1), rgba(50,50,50, 0.1)),
+  		url("./imgs/graygrid.jpg") repeat;
+  	background:
+  		-moz-linear-gradient(
   			rgba(230,230,230, 0.1), rgba(50,50,50, 0.1)),
   		url("./imgs/graygrid.jpg") repeat;
 	height: 100%;

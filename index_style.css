@@ -1,14 +1,11 @@
 html {
-	/*background: linear-gradient(#DDDDDD, darkgray); /* Standard syntax */*/
-	/*background: -webkit-linear-gradient(#DDDDDD, darkgray); /* Safari support */*/
-  	/*background: -moz-linear-gradient(#DDDDDD, darkgray); /* Firefox support */*/
-  	background-color: white;
+	background-color: white;
   	background-image: url("./images/graygrid.jpg");
-  	/*background-size: 250px;*/
   	background-repeat: repeat;
 	height: 100%;
 	min-height: 100%;
 }
+
 
 /* --- BODY --- */
 body {
@@ -48,6 +45,7 @@ body {
 	}
 }
 
+
 /* --- BODY TEXT --- */
 #main {
 	overflow: auto;
@@ -67,7 +65,10 @@ body {
 #main_content ul li{
     padding-top: 5px;
     color: #404040;
-    /*vertical-align: middle;*/
+}
+#main_content a {
+	text-decoration: none;
+	color: #404040;
 }
 .material-icons {
 	color: rgba(0, 0, 0, 0.5);

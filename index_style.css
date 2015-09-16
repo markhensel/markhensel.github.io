@@ -37,6 +37,9 @@ body {
 		min-width: 100%;
 		width: 100%;
 	}
+	#main_content {
+		width: 40%;
+	}
 	#first_name, #last_name{
 		font-size: 100px;
 	}
@@ -97,12 +100,12 @@ header {
     width: 95%;
     border-right: 0.45em solid transparent;    
     padding-right: 0px;
-    animation: cursor_appear 0s linear 1s forwards,
-    		   type 1.5s steps(11, end) 1s, 
-               blink 1s step-end 3s infinite;
-    -webkit-animation: cursor_appear 0s linear 1s forwards,
-               type 1.5s steps(11, end) 1s, 
-               blink 1s step-end 3s infinite;
+    animation: cursor_appear 0s linear 1.5s forwards,
+    		   type 1.5s steps(11, end) 1.5s, 
+               blink 1s step-end 3.5s infinite;
+    -webkit-animation: cursor_appear 0s linear 1.5s forwards,
+               type 1.5s steps(11, end) 1.5s, 
+               blink 1s step-end 3.5s infinite;
 
 }
 #first_name, #last_name {
@@ -113,10 +116,10 @@ header {
 	/*font-weight: bold;*/
 }
 #first_name {
-	animation: first_appear 0s linear 1s forwards;
+	animation: first_appear 0s linear 1.5s forwards;
 }
 #last_name {
-	animation: last_appear 0s linear 1s forwards;
+	animation: last_appear 0s linear 1.5s forwards;
 }
 
 /* TEXT TYPING */

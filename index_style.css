@@ -99,12 +99,12 @@ header {
     width: 95%;
     border-right: 0.45em solid transparent;    
     padding-right: 0px;
-    animation: cursor_appear 0s linear 3s forwards,
-    		   type 1.5s steps(11, end) 3s, 
-               blink 1s step-end 5s infinite;
-    -webkit-animation: cursor_appear 0s linear 3s forwards,
-               type 1.5s steps(11, end) 3s, 
-               blink 1s step-end 5s infinite;
+    animation: cursor_appear 0s linear 2.5s forwards,
+    		   type 2s steps(11, end) 2.5s, 
+               blink 1s step-end 4.5s infinite;
+    -webkit-animation: cursor_appear 0s linear 2.5s forwards,
+               type 2s steps(11, end) 2.5s, 
+               blink 1s step-end 4.5s infinite;
 
 }
 #first_name, #last_name {
@@ -115,10 +115,10 @@ header {
 	/*font-weight: bold;*/
 }
 #first_name {
-	animation: first_appear 0s linear 3s forwards;
+	animation: first_appear 0s linear 2.5s forwards;
 }
 #last_name {
-	animation: last_appear 0s linear 3s forwards;
+	animation: last_appear 0s linear 2.5s forwards;
 }
 
 /* TEXT TYPING */

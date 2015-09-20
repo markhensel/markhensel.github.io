@@ -111,8 +111,6 @@ header {
 	display: inline;
 	font-size: 60px;
 	color: transparent;
-	/*margin-top: -5px;*/
-	/*font-weight: bold;*/
 }
 #first_name {
 	animation: first_appear 0s linear 2.5s forwards;

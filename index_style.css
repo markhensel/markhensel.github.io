@@ -60,8 +60,8 @@ body {
 /* --- BODY TEXT --- */
 #main_content {
 	overflow: auto;
-	margin: 8% 0% 5% 5%;
-	width: 55%;
+	margin: 8% 0% 5% 6%;
+	width: 50%;
 	float: left;
 	font-weight: bold;
 }
@@ -96,7 +96,7 @@ header {
 	/*font-family: "Inconsolata", monospace;*/
 	white-space: nowrap;
     overflow: hidden;
-    width: 88%;
+    width: 95%;
     border-right: 0.45em solid transparent;    
     padding-right: 0px;
     animation: cursor_appear 0s linear 2.5s forwards,
@@ -182,7 +182,7 @@ header {
 	float: right;
 	width: 35%;
 	height: 30%;
-	margin: 2% 5% 5% 0;
+	margin: 2% 6% 5% 0;
 	border-radius: 70%;
 	box-shadow: 0px 3px 20px 2px gainsboro;
 }

@@ -60,8 +60,8 @@ body {
 /* --- BODY TEXT --- */
 #main_content {
 	overflow: auto;
-	margin: 8% 0% 5% 8%;
-	width: 45%;
+	margin: 8% 0% 5% 5%;
+	width: 55%;
 	float: left;
 	font-weight: bold;
 }
@@ -93,10 +93,10 @@ body {
 /* --- "MARK HENSEL" --- */
 header {
 	letter-spacing: 1px;
-	font-family: "Inconsolata", monospace;
+	/*font-family: "Inconsolata", monospace;*/
 	white-space: nowrap;
     overflow: hidden;
-    width: 95%;
+    width: 88%;
     border-right: 0.45em solid transparent;    
     padding-right: 0px;
     animation: cursor_appear 0s linear 2.5s forwards,
@@ -132,19 +132,21 @@ header {
 @keyframes first_appear {
     from { color: transparent }
    	to { color: firebrick }
+   	/*to { color: midnightblue }*/
 }
 @-webkit-keyframes first_appear {
     from { color: transparent }
    	to { color: firebrick }
+   	/*to { color: midnightblue }*/
 }
 /* LAST NAME APPEAR */
 @keyframes last_appear {
     from { color: transparent }
-   	to { color: #243ABA }
+   	to { color: midnightblue }
 }
 @-webkit-keyframes last_appear {
     from { color: transparent }
-   	to { color: #243ABA }
+   	to { color: midnightblue }
 }
 /* CURSOR APPEAR */
 @keyframes cursor_appear {
@@ -180,7 +182,7 @@ header {
 	float: right;
 	width: 35%;
 	height: 30%;
-	margin: 2% 7% 5% 0;
+	margin: 2% 5% 5% 0;
 	border-radius: 70%;
 	box-shadow: 0px 3px 20px 2px gainsboro;
 }

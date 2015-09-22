@@ -131,13 +131,11 @@ header {
 /* FIRST NAME APPEAR */
 @keyframes first_appear {
     from { color: transparent }
-   	to { color: firebrick }
-   	/*to { color: midnightblue }*/
+   	to { color: brown }
 }
 @-webkit-keyframes first_appear {
     from { color: transparent }
-   	to { color: firebrick }
-   	/*to { color: midnightblue }*/
+   	to { color: brown }
 }
 /* LAST NAME APPEAR */
 @keyframes last_appear {
